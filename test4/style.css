@@ -1,0 +1,129 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main
+{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: grey;
+}
+
+.header
+{
+    height: 10vh;
+    width: 100%;
+    background-color: blueviolet;
+    position: relative;
+}
+
+.creator
+{
+    height: 10vh;
+    width: 10vh;
+    user-select: none;
+}
+
+.txt
+{
+    color: aliceblue;
+    font-size: 5vh;
+    left: 11vh;
+    position: absolute;
+    user-select: none;
+}
+
+.noto-sans-hanunoo-regular
+{
+    font-family: "Noto Sans Hanunoo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.txt2
+{
+    color: aliceblue;
+    font-size: 5vh;
+    user-select: none;
+}
+
+.catalog
+{
+    position: relative;
+    background-color: aquamarine;
+    width: 100%;
+    height: 90vh;
+    overflow: scroll;
+    overflow-x:hidden;
+    padding: 5vh;
+    display: grid;
+    grid-template-columns: repeat(4, 20vw);
+    grid-template-rows: repeat(auto, 40vh);
+    grid-gap: 7vh;
+}
+
+.card
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 0.25vh black solid;
+    width: 20vw;
+    height: auto;
+    padding: 1vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-name
+{
+    color: white;
+    font-size: 3vh;
+    width: 100%;
+    text-align: center;
+}
+
+.card-image
+{
+    height: 25vh;
+    width: 100%;
+}
+
+.card-desc
+{
+    color: white;
+    font-size: 4vh;
+    width: 100%;
+    text-align: center;
+}
+
+.card-btn
+{
+    width: 100%;
+    height: auto;
+    padding-left: 5%;
+}
+
+.Buy-btn
+{
+    width: 90%;
+    height: auto;
+    left: 5%;
+    font-size: 4vh;
+    cursor: pointer;
+    background-color: rgb(81, 255, 0);
+    border: none;
+    color: aliceblue;
+}
+
+.footer
+{
+    width: 100%;
+    height: 20vh;
+    background-color: brown;
+}

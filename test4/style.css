@@ -1,35 +1,30 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.main
-{
+.main {
     position: relative;
     height: 100vh;
     width: 100%;
     background-color: grey;
 }
 
-.header
-{
+.header {
     height: 10vh;
     width: 100%;
     background-color: blueviolet;
     position: relative;
 }
 
-.creator
-{
+.creator {
     height: 10vh;
     width: 10vh;
     user-select: none;
 }
 
-.txt
-{
+.txt {
     color: aliceblue;
     font-size: 5vh;
     left: 11vh;
@@ -37,28 +32,25 @@
     user-select: none;
 }
 
-.noto-sans-hanunoo-regular
-{
+.noto-sans-hanunoo-regular {
     font-family: "Noto Sans Hanunoo", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
-.txt2
-{
+.txt2 {
     color: aliceblue;
     font-size: 5vh;
     user-select: none;
 }
 
-.catalog
-{
+.catalog {
     position: relative;
     background-color: aquamarine;
     width: 100%;
     height: 90vh;
     overflow: scroll;
-    overflow-x:hidden;
+    overflow-x: hidden;
     padding: 5vh;
     display: grid;
     grid-template-columns: repeat(4, 20vw);
@@ -66,8 +58,7 @@
     grid-gap: 7vh;
 }
 
-.card
-{
+.card {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -80,37 +71,32 @@
     align-items: center;
 }
 
-.card-name
-{
+.card-name {
     color: white;
     font-size: 3vh;
     width: 100%;
     text-align: center;
 }
 
-.card-image
-{
+.card-image {
     height: 25vh;
     width: 100%;
 }
 
-.card-desc
-{
+.card-desc {
     color: white;
     font-size: 4vh;
     width: 100%;
     text-align: center;
 }
 
-.card-btn
-{
+.card-btn {
     width: 100%;
     height: auto;
     padding-left: 5%;
 }
 
-.Buy-btn
-{
+.Buy-btn {
     width: 90%;
     height: auto;
     left: 5%;
@@ -121,8 +107,43 @@
     color: aliceblue;
 }
 
-.footer
-{
+.hidden{
+    display: none;
+}
+
+.admin {
+    position: absolute;
+    height: 75vh;
+    width: 50vw;
+    background-color: rgb(178, 181, 184);
+    left: 25%;
+    top: 15%;
+    padding: 1vh;
+}
+
+.adminmain {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.card-name-in {
+    height: 5vh;
+    color: black;
+    font-size: 4vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.image-in {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    height: 5vh;
+    width: 10vw;
+}
+
+.footer {
     width: 100%;
     height: 20vh;
     background-color: brown;
